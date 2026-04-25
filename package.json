@@ -1,0 +1,12 @@
+{
+  "name": "inkwell",
+  "version": "1.0.0",
+  "description": "Inkwell full-stack blog application",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "start": "cd backend && npm start"
+  },
+  "private": true
+}
